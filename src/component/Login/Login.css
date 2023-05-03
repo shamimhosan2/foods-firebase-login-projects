@@ -1,0 +1,26 @@
+.Login-account{
+      
+}
+.mains{
+    display: flex;
+    justify-content: center;
+    border: 10px;
+}
+.login-part button{
+    width: 260px;
+    margin-bottom: 5px;
+}
+.login-part{
+    border: 1px solid #F3F3F3;
+    padding: 16px;
+    margin-right: 92px;
+    box-shadow: 3px 1px 9px 19px white;
+    background: whitesmoke;
+    border-radius: 2px;
+}
+
+.login-part input{
+    width: 200px;
+    margin-bottom: 10px;
+    padding-left:5px ;
+}

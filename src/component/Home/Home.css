@@ -1,0 +1,18 @@
+.bg-image{
+    background-image: url('/src/images/straw.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom left, top;
+    height: 520px;
+    padding: 10px;
+  
+}
+.Logo-img{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    padding-top: 127px;
+}
+.recipy-name{
+    padding-top: 15px;
+}

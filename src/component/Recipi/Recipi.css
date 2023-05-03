@@ -1,0 +1,30 @@
+.recepi-names img{
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px;
+}
+.recepy-title{
+    text-align: center;
+}
+.box-shodow{
+    border: 1px solid white;
+    box-shadow: 1px 1px 1px 5px whitesmoke;
+}
+.star{
+    display: flex;
+    color: gold;
+    font-size: 30px;
+    padding-bottom: 15px;
+    justify-content: center;
+    align-items: center;
+
+}
+.amount{
+    text-align: center;
+    color: gray;
+}
+.btns{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 8px;
+}
