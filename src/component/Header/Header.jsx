@@ -18,7 +18,7 @@ const Header = () => {
                 </div>
                <div className='btn'>
                    <Button variant="primary">Profile</Button>
-                   <Link to='/login'><Button variant="success">Login </Button></Link>
+                   <Link to='/login'><Button variant="success">Login s</Button></Link>
                   
                </div>
              </div>
