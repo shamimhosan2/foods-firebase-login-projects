@@ -2,9 +2,11 @@ import React from 'react';
 import './Login.css'
 import { Link } from 'react-router-dom';
 import { MdOutlineCheckBoxOutlineBlank } from 'react-icons/Md';
+import Footer from '../Footer/Footer';
 const Login = () => {
     return (
-        <div className='mains'>
+      <div>
+           <div className='mains'>
            <div className='Login-account'>
               <h2>Please Login Your Account</h2>
               <div>
@@ -20,6 +22,10 @@ const Login = () => {
               </div>
            </div>
         </div>
+        <div className='footerss'>
+          <Footer></Footer>
+        </div>
+     </div>
     );
 };
 

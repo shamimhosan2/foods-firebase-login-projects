@@ -2,6 +2,7 @@ import React from 'react';
 import './Home.css'
 import Recepi from '../Recipi/Recepi';
 import Footer from '../Footer/Footer';
+import Chef from '../Chef/Chef';
 
 const Home = () => {
     return (
@@ -13,6 +14,9 @@ const Home = () => {
           </div>
            <div className='recipy-name'>
               <Recepi></Recepi>
+           </div>
+           <div>
+            <Chef></Chef>
            </div>
            <div>
              <Footer></Footer>
