@@ -1,0 +1,12 @@
+.fast{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+    padding: 15px;
+}
+.detais{
+    border: 1px solid gray;
+    padding: 10px;
+    box-shadow: 1px 1px 1px 1px gray;
+
+}

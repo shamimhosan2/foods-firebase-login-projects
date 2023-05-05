@@ -2,6 +2,7 @@ import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import './Recipi.css'
  import { AiFillStar } from 'react-icons/ai';
+import { Link } from 'react-router-dom';
 
 const Recepi = () => {
     return (
@@ -21,7 +22,7 @@ const Recepi = () => {
                      <AiFillStar></AiFillStar>
                   </div>
                     <div className='btns'>
-                       <button type="button" class="btn btn-danger">Details</button>
+                     <Link to='/news'>  <button type="button" class="btn btn-danger">Details</button></Link>
                     </div>
 
               </Col>
@@ -37,7 +38,7 @@ const Recepi = () => {
                      <AiFillStar></AiFillStar>
                   </div>
                   <div className='btns'>
-                       <button type="button" class="btn btn-danger">Details</button>
+                      <Link to='/news'>  <button type="button" class="btn btn-danger">Details</button></Link>
                     </div>
               </Col>
               <Col sm className='box-shodow'>
@@ -51,7 +52,7 @@ const Recepi = () => {
                      <AiFillStar></AiFillStar>
                   </div>
                   <div className='btns'>
-                       <button type="button" class="btn btn-danger">Details</button>
+                     <Link to='/news'>  <button type="button" class="btn btn-danger">Details</button></Link>
                     </div>
                 </Col>
               
@@ -69,7 +70,7 @@ const Recepi = () => {
                      <AiFillStar></AiFillStar>
                   </div>
                   <div className='btns'>
-                       <button type="button" class="btn btn-danger">Details</button>
+                    <Link to='/news'>  <button type="button" class="btn btn-danger">Details</button></Link>
                     </div>
               </Col>
               <Col sm className='box-shodow'> 
@@ -84,7 +85,7 @@ const Recepi = () => {
                      <AiFillStar></AiFillStar>
                   </div>
                   <div className='btns'>
-                       <button type="button" class="btn btn-danger">Details</button>
+                       <Link to='/news'>  <button type="button" class="btn btn-danger">Details</button></Link>
                     </div>
                 </Col>
               <Col sm className='box-shodow'>
@@ -99,7 +100,7 @@ const Recepi = () => {
                      <AiFillStar></AiFillStar>
                   </div>
                   <div className='btns'>
-                       <button type="button" class="btn btn-danger">Details</button>
+                     <Link to='/news'>  <button type="button" class="btn btn-danger">Details</button></Link>
                     </div>
                 </Col>
               
