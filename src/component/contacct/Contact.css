@@ -1,0 +1,24 @@
+.contacts{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    gap: 30px;
+   
+ 
+}
+.con{
+    font-weight: bold;
+    color: black;
+    margin-bottom: 50px ;
+    margin-top: 25px;
+}
+.contacts img{
+    width: 500px;
+    border-radius: 50%;
+}
+.language p{
+    color: gray;
+}
+.language h3{
+    font-weight: bold;
+}
