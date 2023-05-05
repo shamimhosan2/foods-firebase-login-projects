@@ -1,0 +1,8 @@
+.myself{
+    color: gray;
+    padding: 10px;
+    border: 1px solid gray;
+    font-size: 20px;
+    font-weight: bold;
+    box-shadow: 1px 1px 1px 1px gray;
+}

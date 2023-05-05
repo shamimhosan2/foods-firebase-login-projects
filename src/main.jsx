@@ -12,6 +12,8 @@ import Login from './component/Login/Login';
 import Blog from './component/Blog/Blog';
 import Contact from './component/contacct/Contact';
 import Details from './component/Details/Details';
+import Profile from './component/Profile/Profile';
+import Register from './component/Register/Register';
 
 
 const router = createBrowserRouter([
@@ -38,6 +40,14 @@ const router = createBrowserRouter([
      {
       path:'/news',
       element:<Details></Details>
+     },
+     {
+      path:'/profile',
+      element:<Profile></Profile>
+     },
+     {
+      path:'/register',
+      element:<Register></Register>
      }
      
 

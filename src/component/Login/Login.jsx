@@ -17,7 +17,7 @@ const Login = () => {
                     <input type="text" placeholder='password' />
                     <p><MdOutlineCheckBoxOutlineBlank></MdOutlineCheckBoxOutlineBlank> Check me out</p>
                     <button type="button" className="btn btn-primary" disabled>Login</button>
-                    <p>Don't Have an Account? <Link to='/'> Register</Link></p>
+                    <p>Don't Have an Account? <Link to='/register'> Register</Link></p>
                 </div>
               </div>
            </div>
