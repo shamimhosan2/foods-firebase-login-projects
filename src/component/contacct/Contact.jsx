@@ -2,13 +2,14 @@ import React from 'react';
 import './Contact.css'
 import Footer from '../Footer/Footer';
 import { Link } from 'react-router-dom';
+import contex from "/public/images/295498189_587024036326553_7439621935680407165_n.jpg"
 const Contact = () => {
     return (
         <div className='constactssd'>
             <h1 className='text-center con'>This is my contact Number</h1>
            <div className='contacts container'>
-           <div>
-              <img src="/src/images/295498189_587024036326553_7439621935680407165_n.jpg" alt="" /> 
+           <div> 
+              <img src={contex} alt="" />
             </div>
             <div className='language'>
                 <h3>Contact:0839850780707</h3>

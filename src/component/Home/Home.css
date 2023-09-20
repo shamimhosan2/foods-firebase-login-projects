@@ -1,5 +1,5 @@
 .bg-image{
-    background-image: url('/src/images/straw.jpg');
+    background-image: url('/public/images/straw.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: bottom left, top;

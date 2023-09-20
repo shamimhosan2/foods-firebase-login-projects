@@ -22,3 +22,14 @@
 .main{
   background-color: #E9ECEF;
 }
+@media screen and (max-width:500px) {
+  .main-container{
+    display: flex;
+    text-align: center;
+    padding: 5px;
+    align-items: center;
+  }
+  .btn{
+    display: flex;
+  }
+}
